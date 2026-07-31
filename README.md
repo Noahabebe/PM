@@ -13,7 +13,7 @@ For the pose keypoints and ball `xyz` positions, numbers are provided in **feet*
 The coordinate system is placed on a basketball court with the origin at the center, as shown below:
 
 <p align="center">
-  <img src="./assets/coordinate_system.png", width=400>
+  <img src="./basketball/freethrow/assets/coordinate_system.png", width=400>
 </p>
 
 A few notes:
@@ -29,13 +29,13 @@ Additionally, we provide two data points relating to the result of the free thro
 1. `x` and `y` coordinates of the ball landing on the hoop, measured with the front of the hoop as the origin, and the coordinate system shown in the figure below. These numbers are provided in **inches**. The point can be thought of as the location that the ball makes contact with the plane of the hoop.
 2. The entry angle of the ball, again at the point when the ball breaks through the plane of the hoop. This number is measured in **degrees**. See the angle convention in the image below.
 
-<center> <img src="./assets/ball_coords.png", width=400> </center>
+<center> <img src="./basketball/freethrow/assets/ball_coords.png", width=400> </center>
 <center <figcaption> Hoop images taken from Dimensions.com  </figcaption> </center>
 
 ## Pose Markers 
 The image below shows the person keypoints present in the dataset. The keypoint names in the table below the image are the keys in the dictionary.
 <p align="center">
-  <img src="./basketball/assets/markers.png", width=200>
+  <img src="./basketball/freethrow/assets/markers.png", width=200>
 </p>
 
 <center>
@@ -79,4 +79,4 @@ pip install mplbasketball
 ```
 The `animate_trial()` is defined in `utils/animate.py`, and produces a GIF like the one below:
 
-<img src="./basketball/assets/shot_animation.gif">
+<img src="./basketball/freethrow/assets/shot_animation.gif">
