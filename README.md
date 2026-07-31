@@ -35,7 +35,7 @@ Additionally, we provide two data points relating to the result of the free thro
 ## Pose Markers 
 The image below shows the person keypoints present in the dataset. The keypoint names in the table below the image are the keys in the dictionary.
 <p align="center">
-  <img src="./assets/markers.png", width=200>
+  <img src="./basketball/assets/markers.png", width=200>
 </p>
 
 <center>
@@ -79,4 +79,4 @@ pip install mplbasketball
 ```
 The `animate_trial()` is defined in `utils/animate.py`, and produces a GIF like the one below:
 
-<img src="./assets/shot_animation.gif">
+<img src="./basketball/assets/shot_animation.gif">
